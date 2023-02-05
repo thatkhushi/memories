@@ -10,8 +10,7 @@ export const getPosts = () => async (dispatch) => {
   } catch (error) {
     console.log(error);
   }
-  //   const action = { type: "FETCH_ALL", payload: [] };
-  //   dispatch(action);
+  
 };
 export const createPost = (post) => async (dispatch) => {
   try {
